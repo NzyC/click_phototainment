@@ -7,7 +7,7 @@
 /* variable */
 :root {     
     --base-color: #C5BAAF;
-    --dark-gray: #fff;
+    --dark-gray: #000;
     --medium-gray:#1f1f1f;
     --extra-medium-gray:#707070;
     --alt-font: 'Antonio', sans-serif;
@@ -18,6 +18,14 @@ html {
 }
 body{
     line-height: 30px;
+}
+/* extras */
+.experience_btn {
+
+    transition: all 300ms ease-in-out;
+}
+.experience_btn:hover {
+    transform: scale(1.05);
 }
 /* reset */
 .word-break-normal {
