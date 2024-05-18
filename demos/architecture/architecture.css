@@ -228,6 +228,9 @@ footer .elements-social li {
     header .navbar-brand {
         padding: 20px 0;
     }
+    .undraw-flex {
+        flex-direction: column;
+    }
 }
 @media (max-width: 767px) {
     .video-icon-extra-large .video-icon {
