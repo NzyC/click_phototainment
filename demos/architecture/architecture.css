@@ -200,6 +200,18 @@ footer .elements-social li {
     display: flex;
 }
 
+.ul-services li:before {
+    content: '✓';
+    margin-right: 10px;
+  }
+
+
+.services-container {
+    display: flex; 
+    justify-content: space-between;
+}
+
+
 /* media query responsive */
 @media (max-width: 1430px) {
     .architecture-number {
@@ -233,6 +245,9 @@ footer .elements-social li {
         padding: 20px 0;
     }
     .undraw-flex {
+        flex-direction: column;
+    }
+    .services-container {
         flex-direction: column;
     }
 }
