@@ -211,7 +211,6 @@ footer .elements-social li {
     justify-content: space-around;
     align-items: center;
 }
-
 .pulse {
     animation: pulse 2s ease-in-out 0s infinite normal forwards;
   }
@@ -329,6 +328,13 @@ footer .elements-social li {
   display: block;
 }
 
+.photobooth-banner-btm {
+    width: 85vw;
+}
+
+.photobooth-mobile {
+    display: none;
+}
 
 
 
@@ -370,6 +376,10 @@ footer .elements-social li {
     .services-container {
         flex-direction: column;
     }
+    .faq_container {
+        flex-direction: column;
+    }
+
 }
 @media (max-width: 767px) {
     .video-icon-extra-large .video-icon {
@@ -421,6 +431,12 @@ footer .elements-social li {
 @media (max-width: 768px) {
     .image-container {
         width: calc(50% - 20px);
+    }
+    .photobooth-laptop {
+        display: none;
+    }
+    .photobooth-mobile {
+        display: block;
     }
 }
 
