@@ -175,14 +175,19 @@
     </section>
     <!-- end page title -->
     <!-- start section -->
-    <section class="bg-medium-gray background-position-center-top">
-        <div class="container">
-            <div class="row sm-mb-0"
-                style="height: 40vh; display: flex; justify-content: space-between; align-items: center;">
-                <div class="sm-w-100 w-40 text-white">
-                    <h3 class="fw-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, deleniti.</h1>
-                </div>
-                <div class="sm-w-100 w-50 bg-black h-100"></div>
+    <section class="bg-medium-gray background-position-center-top p-0">
+        <div class="row sm-mb-0"
+            style="height: 40vh; display: flex; justify-content: space-between; align-items: center;">
+            <div class="sm-w-100 w-50 h-100 text-white"
+                data-anime='{ "el": "childs parent", "translateX": [1800, 0], "opacity": [1,1], "duration": 900, "delay": 900, "staggervalue": 0, "easing": "easeOutQuad" }'
+                style="display: flex; justify-content: center; align-items: center; background-color: #c5baaf;">
+                <h3 class="fw-600" style="font-size: 24px; text-align: center;">Capture Every <span
+                        style="text-decoration: underline;">Smile</span>, Every <span
+                        style="text-decoration: underline;">Moment,</span> Every <span
+                        style="text-decoration: underline;">Time!</span></h1>
+            </div>
+            <div class="sm-w-100 w-50 bg-black h-100"
+                data-anime='{ "el": "childs parent", "translateX": [1800, 0], "opacity": [1,1], "duration": 900, "delay": 0, "staggervalue": 0, "easing": "easeOutQuad" }'>
             </div>
         </div>
     </section>
@@ -192,13 +197,14 @@
         <div class="container services-container" style="">
             <div class="col-lg-5 md-mt-13 sm-mt-10"
                 data-anime='{ "el": "childs parent", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                <span class="text-base-color fs-12 fw-600 ls-3px text-uppercase mb-10px d-block">About Clickk</span>
-                <h4 class="text-white fw-600">The <span style="text-decoration: underline;">Clickk</span> Experience
+                <h4 class="text-white fw-600"><span style="text-decoration: underline;">Clickk:</span> Your Partner in
+                    Event Entertainment
                 </h4>
-                <p class="w-90 md-w-100 text-white">At Clickk Phototainment, our passion drives us as an innovative
-                    group, dedicated to creating a great vibe and environment at weddings, parties, corporate
-                    events, and more. Based in Sydney, our premium photobooths and 360 infinity booths ensure every
-                    guest has a memorable experience. Contact us today to make your event extraordinary!</p>
+                <p class="w-90 md-w-100 text-white">We specialise in bringing joy to events with our premium photobooth
+                    and 360 video booth. Our photobooth offers high-quality prints, fun props, and instant social media
+                    sharing. The 360 video booth provides immersive experiences with real-time playback and customizable
+                    themes. Perfect for weddings, corporate events, and parties. Elevate your event with unforgettable
+                    memories today.</p>
                 <a href="demo-architecture-services.html"
                     class="btn btn-link btn-hover-animation-switch btn-medium text-white primary-font sm-vertical-align-top ls-1px">
                     <span>
@@ -211,15 +217,20 @@
 
             <div class="sm-w-100 bg-red text-white position-relative"
                 data-anime='{ "el": "childs parent", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'
-                style="height: 75vh;padding-bottom: 5vh; width: 25%; display: flex; justify-content: space-around; flex-direction: column; align-items: center; background: rgb(27,187,209);
-background: linear-gradient(309deg, rgba(27,187,209,1) 0%, rgba(79,73,230,1) 52%, rgba(132,44,252,1) 100%); border-top-left-radius: 30px; border-bottom-right-radius: 50px;">
-                <h4 class="fw-600 text-center">Photobooth</h4>
+                style="height: 85vh;padding-bottom: 5vh; width: 25%; display: flex; justify-content: space-evenly; flex-direction: column; align-items: center; background: rgb(0,0,0);
+background: linear-gradient(292deg, rgba(0,0,0,1) 0%, rgba(32,28,28,1) 5%, rgba(197,186,175,1) 100%); border-top-left-radius: 30px; border-bottom-right-radius: 50px; ">
+                <h4 class="fw-600 text-center" style="padding-top: 5vh;">360° Infinity Booth</h4>
 
-                <div class="h-150px bg-black w-90"></div>
-                <ul class="ul-services m-0 px-0">
-                    <li>Lorem, ipsum dolor.</li>
-                    <li>Lorem, ipsum dolor.</li>
-                    <li>Lorem, ipsum dolor.</li>
+                <div class="h-250px w-90 overflow-hidden d-flex justify-content-center">
+                    <img style="object-fit: contain; height: 100%;;"
+                        src="images/click_images/360 booth product photo.png" alt="">
+                </div>
+                <ul class="ul-services m-0 px-0 fs-12 mb-10">
+                    <li>Customizable Backdrops</li>
+                    <li>Instant Print Photos</li>
+                    <li>Fun Props Included</li>
+                    <li>Digital Sharing Options</li>
+                    <li>Professional Attendant On-Site</li>
                 </ul>
                 <a href="demo-architecture-services.html"
                     class="btn btn-link btn-hover-animation-switch btn-medium text-black fw-900 primary-font sm-vertical-align-top ls-1px w-100 pt-4"
@@ -234,15 +245,19 @@ background: linear-gradient(309deg, rgba(27,187,209,1) 0%, rgba(79,73,230,1) 52%
 
             <div class="sm-w-100 bg-red text-white position-relative"
                 data-anime='{ "el": "childs parent", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'
-                style="height: 75vh;padding-bottom: 5vh; width: 25%; display: flex; justify-content: space-around; flex-direction: column; align-items: center; background: rgb(27,187,209);
-background: linear-gradient(309deg, rgba(27,187,209,1) 0%, rgba(79,73,230,1) 52%, rgba(132,44,252,1) 100%); border-top-left-radius: 30px; border-bottom-right-radius: 50px;">
-                <h4 class="fw-600 text-center">360</h4>
+                style="height: 85vh;padding-bottom: 5vh; width: 25%; display: flex; justify-content: space-evenly; flex-direction: column; align-items: center; background: rgb(0,0,0);
+background: linear-gradient(292deg, rgba(0,0,0,1) 0%, rgba(32,28,28,1) 5%, rgba(197,186,175,1) 100%); border-top-left-radius: 30px; border-bottom-right-radius: 50px; ">
+                <h4 class="fw-600 text-center" style="padding-top: 5vh;">Premium Photobooth</h4>
 
-                <div class="h-150px bg-black w-90"></div>
-                <ul class="ul-services m-0 px-0">
-                    <li>Lorem, ipsum dolor.</li>
-                    <li>Lorem, ipsum dolor.</li>
-                    <li>Lorem, ipsum dolor.</li>
+                <div class="h-250px w-90 overflow-hidden d-flex justify-content-center">
+                    <img style="height: 100%;;" src="images/click_images/photobooth product photo.png" alt="">
+                </div>
+                <ul class="ul-services m-0 px-0 fs-12 mb-10">
+                    <li>Customizable Backdrops</li>
+                    <li>Instant Print Photos</li>
+                    <li>Fun Props Included</li>
+                    <li>Digital Sharing Options</li>
+                    <li>Professional Attendant On-Site</li>
                 </ul>
                 <a href="demo-architecture-services.html"
                     class="btn btn-link btn-hover-animation-switch btn-medium text-black fw-900 primary-font sm-vertical-align-top ls-1px w-100 pt-4"
@@ -265,11 +280,8 @@ background: linear-gradient(309deg, rgba(27,187,209,1) 0%, rgba(79,73,230,1) 52%
             data-anime='{ "el": "childs parent", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
             <h3>This could be you!</h3>
 
-            <p class="w-70 text-center mt-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque vero
-                accusamus quam ratione
-                provident, nihil cupiditate repellat repudiandae aliquid, recusandae aut officiis id dolores nobis
-                itaque maiores. Quo, maxime natus quos error suscipit sunt necessitatibus distinctio sint ut
-                accusantium aspernatur?</p>
+            <p class="w-70 text-center mt-5 fs-28 fw-400">See how our photobooth and 360 video booth capture picture-perfect moments.
+                Get a closer look at the joy we create with Clickk.</p>
 
             <a href="demo-architecture-services.html"
                 class="btn btn-link btn-hover-animation-switch btn-medium text-white primary-font sm-vertical-align-top ls-1px">

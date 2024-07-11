@@ -208,8 +208,27 @@ footer .elements-social li {
 
 .services-container {
     display: flex; 
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.pulse {
+    animation: pulse 2s ease-in-out 0s infinite normal forwards;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(1.05);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
 
 /*Section used for centering process*/
 .section_faq {
@@ -219,7 +238,6 @@ footer .elements-social li {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 40vh 0;
 }
 
 .container{
@@ -358,6 +376,12 @@ footer .elements-social li {
         width: 120px;
         height: 120px;
     }
+    .photobooth_landing {
+        flex-direction: column;
+    }
+    .photobooth-vid-wrapper {
+        width: 100%;
+    }
     .slider-navigation-style-07 {
         left: 0;
     }
@@ -370,5 +394,38 @@ footer .elements-social li {
     }
     .vid-para-container {
         display: block;
+    }
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.image-container {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 40px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .image-container {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .image-container {
+        width: calc(100% - 20px);
     }
 }
