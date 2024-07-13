@@ -405,6 +405,9 @@ footer .elements-social li {
     .vid-para-container {
         display: block;
     }
+    .mobile-column {
+        flex-direction: column;
+    }
 }
 
 .image-gallery {
@@ -445,3 +448,4 @@ footer .elements-social li {
         width: calc(100% - 20px);
     }
 }
+

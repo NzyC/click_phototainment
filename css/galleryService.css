@@ -6,7 +6,7 @@
 }
 
 .img_gallery {
-  height: 150px;
+  height: 175px;
   position: absolute;
   left: 0;
   offset-path: path('m 0 50 q 50-30 100-30 t 100 30 100 0 100-30 100 30');
