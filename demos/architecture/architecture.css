@@ -441,6 +441,9 @@ footer .elements-social li {
     .photobooth-mobile {
         display: block;
     }
+    .arrow-hide {
+        display: none;
+    }
 }
 
 @media (max-width: 480px) {
